@@ -1,6 +1,6 @@
 # Patinho Feio do Legume
 
-MVP funcional para o acompanhamento de pedidos no e-commerce "Patinho Feio do Legume".
+MVP funcional para o acompanhamento de pedidos no marketplace "Patinho Feio do Legume".
 
 ## Como rodar o projeto
 
