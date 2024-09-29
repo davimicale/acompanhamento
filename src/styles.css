@@ -1,1 +1,149 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #6d9e56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header .search-bar {
+    flex: 1;
+    margin: 0 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+header .nav-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header .nav-links a i {
+    margin-right: 5px;
+}
+
+.breadcrumb {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #6d9e56;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+main {
+    padding: 20px;
+}
+
+.order-details, .payment-info, .total-info, .address-info, .order-status, .order-items {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-details h1 {
+    font-size: 20px;
+}
+
+.payment-info button, .print-button, .new-order-button {
+    background-color: #6d9e56;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-status ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+}
+
+.order-status li {
+    display: flex; /* Exibe os itens em linha */
+    align-items: center; /* Alinha verticalmente os ícones e texto */
+    margin-bottom: 15px; /* Espaçamento entre as etapas */
+}
+
+.status-icon {
+    font-size: 20px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.status-text {
+    font-size: 16px; /* Tamanho do texto do status */
+    font-weight: bold; /* Destacar o texto */
+    color: #2c3e50; /* Cor do texto do status */
+}
+
+.status-date {
+    font-size: 12px; /* Tamanho menor para a data */
+    color: #777; /* Cor cinza */
+    margin-left: 5px; /* Pequeno espaço entre o status e a data */
+}
+
+.order-items .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.order-items .item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    font-size: 18px; /* Nome maior */
+    font-weight: bold;
+    color: #333; /* Cor mais escura */
+}
+
+.item-details {
+    font-size: 14px; /* Tamanho menor */
+    color: #777; /* Cor mais clara, meio cinza */
+    margin-top: 5px;
+}
+
+.order-items .item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.new-order-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+}
 
